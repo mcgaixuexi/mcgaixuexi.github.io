@@ -85,18 +85,13 @@
 <meta property="og:url" content="http://mcgaixuexi.github.io/2020/03/04/Flex%E5%B8%83%E5%B1%80/index.html">
 <meta property="og:site_name" content="小鹿的博客">
 <meta property="og:description" content="移动web开发——flex布局">
-<meta property="og:image" content="http://mcgaixuexi.github.io/2020-03-day-Flex%E5%B8%83%E5%B1%80/1.jpg">
-<meta property="og:image" content="http://mcgaixuexi.github.io/2020-03-day-Flex%E5%B8%83%E5%B1%80/2.jpg">
-<meta property="og:image" content="http://mcgaixuexi.github.io/2020-03-day-Flex%E5%B8%83%E5%B1%80/3.jpg">
-<meta property="og:image" content="http://mcgaixuexi.github.io/2020-03-day-Flex%E5%B8%83%E5%B1%80/4.jpg">
 <meta property="article:published_time" content="2020-03-04T12:18:42.000Z">
-<meta property="article:modified_time" content="2020-03-04T06:27:51.281Z">
+<meta property="article:modified_time" content="2020-03-04T06:40:48.058Z">
 <meta property="article:author" content="mcg">
 <meta property="article:tag" content="HTML5">
 <meta property="article:tag" content="CSS">
 <meta property="article:tag" content="Javascript">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="http://mcgaixuexi.github.io/2020-03-day-Flex%E5%B8%83%E5%B1%80/1.jpg">
 
 
 
@@ -343,13 +338,18 @@
 <li>默认主轴方向就是 x 轴方向，水平向右</li>
 <li>默认侧轴方向就是 y 轴方向，水平向下</li>
 </ul>
-<p><img src="/2020-03-day-Flex%E5%B8%83%E5%B1%80/1.jpg" alt="主轴和侧轴"></p>
+
+
 <ul>
 <li><p>注意： 主轴和侧轴是会变化的，就看 flex-direction 设置谁为主轴，剩下的就是侧轴。而我们的子元素是跟着主轴来排列的</p>
-<p><img src="/2020-03-day-Flex%E5%B8%83%E5%B1%80/2.jpg" alt></p>
+
+
+
+
 </li>
 </ul>
-<h3 id="justify-content-设置主轴上的子元素排列方式"><a href="#justify-content-设置主轴上的子元素排列方式" class="headerlink" title="justify-content 设置主轴上的子元素排列方式"></a>justify-content 设置主轴上的子元素排列方式</h3><p><img src="/2020-03-day-Flex%E5%B8%83%E5%B1%80/3.jpg" alt="主轴子元素排列方式"></p>
+<h3 id="justify-content-设置主轴上的子元素排列方式"><a href="#justify-content-设置主轴上的子元素排列方式" class="headerlink" title="justify-content 设置主轴上的子元素排列方式"></a>justify-content 设置主轴上的子元素排列方式</h3>
+
 <h3 id="flex-wrap设置是否换行"><a href="#flex-wrap设置是否换行" class="headerlink" title="flex-wrap设置是否换行"></a>flex-wrap设置是否换行</h3><ul>
 <li>默认情况下，项目都排在一条线（又称”轴线”）上。flex-wrap属性定义，flex布局中默认是不换行的。</li>
 <li>nowrap 不换行</li>
@@ -363,7 +363,10 @@
 <li>stretch 拉伸</li>
 </ul>
 <h3 id="align-content-设置侧轴上的子元素的排列方式（多行）"><a href="#align-content-设置侧轴上的子元素的排列方式（多行）" class="headerlink" title="align-content  设置侧轴上的子元素的排列方式（多行）"></a>align-content  设置侧轴上的子元素的排列方式（多行）</h3><p>设置子项在侧轴上的排列方式 并且只能用于子项出现 换行 的情况（多行），在单行下是没有效果的。</p>
-<p><img src="/2020-03-day-Flex%E5%B8%83%E5%B1%80/4.jpg" alt="主轴和侧轴"></p>
+
+
+
+
 <h3 id="align-content-和align-items区别"><a href="#align-content-和align-items区别" class="headerlink" title="align-content 和align-items区别"></a>align-content 和align-items区别</h3><ul>
 <li>align-items  适用于单行情况下， 只有上对齐、下对齐、居中和 拉伸</li>
 <li>align-content适应于换行（多行）的情况下（单行情况下无效）， 可以设置 上对齐、下对齐、居中、拉伸以及平均分配剩余空间等属性值。 </li>
